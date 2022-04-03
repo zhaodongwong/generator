@@ -42,9 +42,9 @@ function App() {
   return (
     <div className='bg-gradient-to-br from-lime-300 to-green-300'>
     <div className="w-full h-screen flex flex-col items-center justify-center">
-     <h1 className='text-4xl text-center animate__animated animate__backInDown'>Password Generator</h1>
+     <h1 className='text-4xl text-center animate__animated animate__backInDown sm'>Password Generator</h1>
      <p className='px-12 animate__animated animate__backInLeft animate__delay-1s	'>dhaduashdukasdkashdkjasda</p>
-     <div className='border-2 border-black rounded p-4 text-2xl mt-12 flex items-center whitespace-nowrap min-w-[50%] max-w-[90%] justify-between animate__animated animate__backInRight animate__delay-1s	'>
+     <div className='border-2 border-black rounded p-4 text-2xl mt-12 flex items-center whitespace-nowrap min-w-[50%] max-w-[90%] overflow-x-auto overflow-y-hidden justify-between animate__animated animate__backInRight animate__delay-1s	'>
        {password}
        <div className='flex items-center gap-3'>
          <button onClick={() => {
