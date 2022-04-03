@@ -66,7 +66,7 @@ function App() {
        <input type="range" class="slider" id="myRange" value={passwordLength} min="8" max="80"  onChange={(e) => setPasswordLength(e.target.value)}/>
        <div>{passwordLength}</div>
      </div>
-      <div className='flex flex-col mt-6 flex-wrap'>
+      <div className='flex flex-col mt-6 flex-wrap lg:text-md'>
        <div className='w-full flex items-center gap-4'>
          <div className='w-1/2 items-center justify-between flex-shrink-0'>
            <div className='animate__animated animate__lightSpeedInRight animate__delay-3s'>
