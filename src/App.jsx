@@ -6,7 +6,7 @@ import 'animate.css';
 
 
 function App() {
-  const[passwordLength, setPasswordLength] = useState(16);
+  const[passwordLength, setPasswordLength] = useState(8);
   const[password, setPassword] = useState("");
 
   const[copied,setCopied] = useState(false);
@@ -73,7 +73,7 @@ function App() {
            <h6 className='text-lg'>UppercaseCharacter</h6>
             <label class="relative flex justify-between items-center overflow-hidden">
               <input type="checkbox" class="sr-only peer" onClick={() => setContainUppercase(!containUppercase)} checked={containUppercase}/>
-              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black duration-300 ease-in-out after:w-4 after:h-4 after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
+              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black rounded duration-300 ease-in-out after:w-4 after:h-4 after:bg-black after:rounded after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
             </label>
             </div>
             </div>
@@ -81,7 +81,7 @@ function App() {
          <h6 className='text-lg lg:text-md'>LowercaseCharacter</h6>
             <label class="relative flex justify-between items-center overflow-hidden">
               <input type="checkbox" class="sr-only peer" onClick={() => setContainLowercase(!containLowercase)} checked={containLowercase}/>
-              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black duration-300 ease-in-out after:w-4 after:h-4 after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
+              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black rounded duration-300 ease-in-out after:w-4 after:h-4 after:rounded after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
             </label>
          </div>
          </div>
@@ -91,7 +91,7 @@ function App() {
            <h6 className='text-lg'>Symbol</h6>
             <label class="relative flex justify-between items-center overflow-hidden">
               <input type="checkbox" class="sr-only peer" onClick={() => setContainSymbol(!containSymbol)} checked={containSymbol}/>
-              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black duration-300 ease-in-out after:w-4 after:h-4 after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
+              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black rounded duration-300 ease-in-out after:w-4 after:h-4 after:rounded after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
             </label>
             </div>
             </div>
@@ -100,7 +100,7 @@ function App() {
            <h6 className='text-lg'>Number</h6>
             <label class="relative flex justify-between items-center overflow-hidden">
               <input type="checkbox" class="sr-only peer" onClick={() => setContainNumber(!containNumber)} checked={containNumber}/>
-              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black duration-300 ease-in-out after:w-4 after:h-4 after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
+              <span class="w-10 h-6 flex items-center flex-shrink-0 p-0.5 border-2 border-black rounded duration-300 ease-in-out after:w-4 after:h-4 after:rounded after:bg-black after:shadow-md after:duration-300 peer-checked:after:translate-x-4"></span>
             </label>
             </div>
             </div>

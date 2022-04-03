@@ -18,16 +18,20 @@
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
   border:2px;
-  border-color:black;
+  border-radius:4px;
+  background-color:aqua;
 }
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; 
   appearance: none;
-  width: 20px; 
-  height: 40px;
+  width: 18px; 
+  height: 38px;
   background:black; 
-  cursor: ew-resize; 
+  cursor: ew-resize;
+  border:2px;
+  border-color:black;
+  border-radius:4px; 
 }
 
 .slider::-webkit-slider-thumb:hover {
